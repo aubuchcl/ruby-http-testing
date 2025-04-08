@@ -2,15 +2,11 @@ require 'httparty'
 require 'securerandom'
 
 ENDPOINTS = [
-  'https://httpbin.org/get',
-  'https://jsonplaceholder.typicode.com/posts/1',
-  'https://api.github.com',
-  'https://api.agify.io/?name=michael',
   'https://dog.ceo/api/breeds/image/random',
-  'https://randomuser.me/api/',
-  'https://catfact.ninja/fact',
-  'https://icanhazdadjoke.com/',
-  'https://api.coindesk.com/v1/bpi/currentprice.json'
+  'https://dog.ceo/api/breeds/image/random',
+  'https://dog.ceo/api/breeds/image/random',
+  'https://dog.ceo/api/breeds/image/random',
+  'https://dog.ceo/api/breeds/image/random',
 ]
 
 HEADERS = {
@@ -38,7 +34,7 @@ loop do
 
   threads.each(&:join)
 
-  wait_time = rand(240..300) # 4 to 5 minutes
+  wait_time = rand(200..230) # 4 to 5 minutes
   puts "⏳ Sleeping for #{wait_time} seconds..."
   sleep(wait_time)
 end
