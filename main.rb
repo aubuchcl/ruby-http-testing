@@ -2,11 +2,11 @@ require 'httparty'
 require 'securerandom'
 
 ENDPOINTS = [
-  'https://cname.chrisaubuchon.com/api/breeds/image/random',
-  'https://cname.chrisaubuchon.com/api/breeds/image/random',
-  'https://cname.chrisaubuchon.com/api/breeds/image/random',
-  'https://cname.chrisaubuchon.com/api/breeds/image/random',
-  'https://cname.chrisaubuchon.com/api/breeds/image/random',
+  'http://cname.chrisaubuchon.com/api/breeds/image/random',
+  'http://cname.chrisaubuchon.com/api/breeds/image/random',
+  'http://cname.chrisaubuchon.com/api/breeds/image/random',
+  'http://cname.chrisaubuchon.com/api/breeds/image/random',
+  'http://cname.chrisaubuchon.com/api/breeds/image/random',
 ]
 
 HEADERS = {
