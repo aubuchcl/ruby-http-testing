@@ -60,7 +60,7 @@ HEADERS = {
 }
 
 def random_batch
-  ENDPOINTS.shuffle.sample(rand(5..10))
+  ENDPOINTS.shuffle.sample(rand(40..50))
 end
 
 loop do
