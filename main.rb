@@ -10,7 +10,6 @@ ENDPOINTS = [
   'https://randomuser.me/api/',
   'https://catfact.ninja/fact',
   'https://icanhazdadjoke.com/',
-  'https://www.boredapi.com/api/activity',
   'https://api.coindesk.com/v1/bpi/currentprice.json'
 ]
 
