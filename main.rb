@@ -7,6 +7,51 @@ ENDPOINTS = [
   'http://cname.chrisaubuchon.com/api/breeds/image/random',
   'http://cname.chrisaubuchon.com/api/breeds/image/random',
   'http://cname.chrisaubuchon.com/api/breeds/image/random',
+   'http://cname.chrisaubuchon.com/api/breeds/image/random',
+  'http://cname.chrisaubuchon.com/api/breeds/image/random',
+  'http://cname.chrisaubuchon.com/api/breeds/image/random',
+  'http://cname.chrisaubuchon.com/api/breeds/image/random',
+  'http://cname.chrisaubuchon.com/api/breeds/image/random',
+   'http://cname.chrisaubuchon.com/api/breeds/image/random',
+  'http://cname.chrisaubuchon.com/api/breeds/image/random',
+  'http://cname.chrisaubuchon.com/api/breeds/image/random',
+  'http://cname.chrisaubuchon.com/api/breeds/image/random',
+  'http://cname.chrisaubuchon.com/api/breeds/image/random',
+   'http://cname.chrisaubuchon.com/api/breeds/image/random',
+  'http://cname.chrisaubuchon.com/api/breeds/image/random',
+  'http://cname.chrisaubuchon.com/api/breeds/image/random',
+  'http://cname.chrisaubuchon.com/api/breeds/image/random',
+  'http://cname.chrisaubuchon.com/api/breeds/image/random',
+   'http://cname.chrisaubuchon.com/api/breeds/image/random',
+  'http://cname.chrisaubuchon.com/api/breeds/image/random',
+  'http://cname.chrisaubuchon.com/api/breeds/image/random',
+  'http://cname.chrisaubuchon.com/api/breeds/image/random',
+  'http://cname.chrisaubuchon.com/api/breeds/image/random',
+   'http://cname.chrisaubuchon.com/api/breeds/image/random',
+  'http://cname.chrisaubuchon.com/api/breeds/image/random',
+  'http://cname.chrisaubuchon.com/api/breeds/image/random',
+  'http://cname.chrisaubuchon.com/api/breeds/image/random',
+  'http://cname.chrisaubuchon.com/api/breeds/image/random',
+   'http://cname.chrisaubuchon.com/api/breeds/image/random',
+  'http://cname.chrisaubuchon.com/api/breeds/image/random',
+  'http://cname.chrisaubuchon.com/api/breeds/image/random',
+  'http://cname.chrisaubuchon.com/api/breeds/image/random',
+  'http://cname.chrisaubuchon.com/api/breeds/image/random',
+   'http://cname.chrisaubuchon.com/api/breeds/image/random',
+  'http://cname.chrisaubuchon.com/api/breeds/image/random',
+  'http://cname.chrisaubuchon.com/api/breeds/image/random',
+  'http://cname.chrisaubuchon.com/api/breeds/image/random',
+  'http://cname.chrisaubuchon.com/api/breeds/image/random',
+   'http://cname.chrisaubuchon.com/api/breeds/image/random',
+  'http://cname.chrisaubuchon.com/api/breeds/image/random',
+  'http://cname.chrisaubuchon.com/api/breeds/image/random',
+  'http://cname.chrisaubuchon.com/api/breeds/image/random',
+  'http://cname.chrisaubuchon.com/api/breeds/image/random',
+   'http://cname.chrisaubuchon.com/api/breeds/image/random',
+  'http://cname.chrisaubuchon.com/api/breeds/image/random',
+  'http://cname.chrisaubuchon.com/api/breeds/image/random',
+  'http://cname.chrisaubuchon.com/api/breeds/image/random',
+  'http://cname.chrisaubuchon.com/api/breeds/image/random'
 ]
 
 HEADERS = {
@@ -34,7 +79,7 @@ loop do
 
   threads.each(&:join)
 
-  wait_time = rand(200..230) # 4 to 5 minutes
+  wait_time = rand(45..300) 
   puts "⏳ Sleeping for #{wait_time} seconds..."
   sleep(wait_time)
 end
